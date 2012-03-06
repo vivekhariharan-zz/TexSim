@@ -43,7 +43,7 @@ class ArticleTokenizer:
 		
 		
 		
-	#tokenizer
+	#tokenizer: tokenizes at sentence level and then at word level
 	def tokenize(self):
 		inputFile=open(self.inputFileName,'r')
 		outputFile=open(self.outputFileName,'w')

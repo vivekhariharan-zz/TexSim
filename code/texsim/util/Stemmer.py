@@ -24,9 +24,6 @@ class Stemmer:
 	inputFileName=""
 	outputFileName=""
 	
-	#default constructor
-	def __init__(self):
-		pass
 			
 	#constructor that initializes inputfilename and outputfilename
 	def __init__(self,inputFileName):

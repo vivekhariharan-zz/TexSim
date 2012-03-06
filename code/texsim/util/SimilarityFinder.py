@@ -27,9 +27,7 @@ class SimilarityFinder:
 	tfDictionarys={}
 	idfDictionary={}
 	vectors={}
-	#default constructor
-	def __init__(self):
-		pass
+
 	
 	#parameterized constructor
 	def __init__(self,inputFileName1, inputFileName2):

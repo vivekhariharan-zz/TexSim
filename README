@@ -1,0 +1,27 @@
+TexSim
+
+Python implentation that finds the cosine similarity of two documents.
+Steps:
+	1. Performs Tokenization (at sentence level first and then at word level)
+	2. Removes Stop words from the documents (Removes frequently used words of the English language)
+	3. Performs Stemming (returns the root stem of each word)
+	4. Forms vectors
+	5. Computes the cosine similarity
+	
+	
+Note:
+	In order to perform the NLP operations I have made use of NLTK (Natural Language ToolKit http://www.nltk.org/)
+	
+	
+	
+File Structure:
+	\code #Contains the code files
+		TexSimWrapper.py
+		\texsim
+			\util
+				ArticleTokenizer.py
+				SimilarityFinder.py
+				Stemmer.py
+				StopWordRemover.py
+	\data #used to store the input and intermediate files			 
+				

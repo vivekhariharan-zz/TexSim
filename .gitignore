@@ -1,0 +1,3 @@
+#ignore pydev files
+.project
+.pydevproject

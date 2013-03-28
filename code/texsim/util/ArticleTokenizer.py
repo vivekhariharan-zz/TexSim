@@ -69,4 +69,6 @@ class ArticleTokenizer:
 		for word in tokens:
 			outputFile.write(word+' ')
 		outputFile.close()
-	
+		
+if __name__ == '__main__':
+	pass

@@ -105,4 +105,5 @@ class SimilarityFinder:
 		
 		self.vectors[tfDictionaryCount]=tempVector
 			
-				
+if __name__ == '__main__':
+	pass		

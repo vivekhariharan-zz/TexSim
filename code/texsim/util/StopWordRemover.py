@@ -61,6 +61,6 @@ class StopWordRemover:
 	def setInputFilePath(self,inputFileName):
 		self.inputFileName=inputFileName
 		self.outputFileName=inputFileName+".nostop"
-		
-	
-
+			
+if __name__ == '__main__':
+	pass

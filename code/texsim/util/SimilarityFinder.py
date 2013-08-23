@@ -83,7 +83,7 @@ class SimilarityFinder:
 		modVector1=math.sqrt(modVector1)
 		for term in vector2:
 			modVector2+=term*term
-		modVector1=math.sqrt(modVector2)
+		modVector2=math.sqrt(modVector2)
 		
 		#length of both vectors should be same
 		for index in range(len(vector1)):
